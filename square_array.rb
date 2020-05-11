@@ -1,7 +1,7 @@
 def square_array(array)
   new_array = [ ] #Pushing squared numbers into this argument
   array.each do |number| #Some type of method is passed to each number
-    new_array << number**2
+    new_array << number**2 #number**2 squares number (the variable)
 
 end
 
